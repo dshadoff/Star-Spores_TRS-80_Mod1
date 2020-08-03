@@ -60,5 +60,20 @@ Within the 'src/' directory, the 'make.bat' batch file will build all of the sou
 files into a 'zout/' subdirectory, as both '.cmd' and '.cas' files.
 
 In order to assemble all of these files into a single loadable output file, a second step
-will be required... I will add this as the project approaches a stage where this is needed.
+is required: I used a monitor program called 'ZBUG' (from 80 Microcomputing, the
+January 1981 issue), on an emulator - trs80gp .
 
+1. While not strictly required, I loaded a preset format into memory before starting,
+to resemble the original TRS-80 (cassette version) bootup: starting from location
+4F00H, up until 7FFFH, alternating sets of 40H btyes of 'FFH', followed by 40H bytes
+of '00H'.
+
+2. Load each of the modules into memory in turn.  There aren't any overlapping areas,
+so it shouldn't matter what sequence they are loaded
+
+3. Write out the entire block, from 4F00H to 7FFFH, with an entry address of 5460H,
+to cassette.
+
+4. I did a binary comparion against an original cassette I had from the era, and ensured
+that my entered source was accurate (applying updates where I had overlooked errors
+previously).
