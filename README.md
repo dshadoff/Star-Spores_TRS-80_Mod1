@@ -39,6 +39,12 @@ For informaiton on how to recompile the source, please read the
 
 Sources and re-compilation information can be found in the 'src/' subdirectory, and
 miscellaneous other development notes can be found in the 'notes/' subdirectory.
-When a compiled version can be reliably output, this will be in a 'release/'
-subdirectory.
+Compiled output is in a 'release/' subdirectory.
+
+
+## Screenshots
+
+![alt text](spores_title.gif "Title Screen")
+![alt text](spores_inst.gif "Instruction Screen")
+![alt text](spores_game.gif "Game Play")
 
