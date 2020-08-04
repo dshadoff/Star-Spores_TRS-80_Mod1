@@ -44,15 +44,18 @@ Compiled output is in a 'release/' subdirectory.
 
 ## Screenshots
 
+
 ### Title Screen:
 
 ![alt text](spores_title.gif "Title Screen")
+
 
 ### Instruction Screen:
 
 ![alt text](spores_inst.gif "Instruction Screen")
 
-### Game Play
+
+### Game Play:
 
 ![alt text](spores_game.gif "Game Play")
 
