@@ -74,6 +74,6 @@ so it shouldn't matter what sequence they are loaded
 3. Write out the entire block, from 4F00H to 7FFFH, with an entry address of 5460H,
 to cassette.
 
-4. I did a binary comparion against an original cassette I had from the era, and ensured
+4. I did a binary comparison against an original cassette I had from the era, and ensured
 that my entered source was accurate (applying updates where I had overlooked errors
 previously).
